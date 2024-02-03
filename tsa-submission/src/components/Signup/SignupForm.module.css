@@ -1,0 +1,88 @@
+.form .error {
+  border-bottom: solid #dc3545 3px !important;
+  transition: border-bottom 0.7s;
+}
+
+.form {
+  margin-left: 10vh;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  /* Apply styles for screens less than xs breakpoint */
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+  }
+  .form {
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .input {
+    width: 100% !important;
+  }
+}
+
+.image {
+  height: 100vh;
+  margin-left: auto;
+}
+
+.main {
+  overflow-x: hidden !important;
+}
+
+.input {
+  background-color: transparent !important;
+  transition: border-bottom 0.7s;
+  outline: none;
+  width: 215% !important;
+}
+
+.title {
+  margin-bottom: 100px;
+}
+@media (max-height: 690px) {
+  .title {
+    margin-bottom: 50px;
+  }
+}
+@media (max-height: 635px) {
+  .title {
+    margin-bottom: 2vh;
+  }
+}
+.link {
+  color: #f97316;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.linkContainer {
+  display: block;
+}
+@media (max-width: 375px) {
+  .title {
+    margin-bottom: 10px;
+  }
+}
+.signup {
+  background-color: #f97316;
+  transition: all 0.5s;
+  font-weight: 500;
+  color: white !important;
+}
+.signup:hover {
+  background-color: #fdba74;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.signup:disabled {
+  background-color: #fdba74;
+}
+.signup:disabled:hover {
+  box-shadow: none !important;
+}

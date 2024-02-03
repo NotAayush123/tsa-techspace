@@ -1,0 +1,51 @@
+.main {
+  height: 100vh;
+}
+.title {
+  font-size: 5em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  color: white;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 5px;
+  background: #f43f5e;
+  transform: translateX(-50%);
+  transition: width 1s ease;
+  z-index: -1;
+}
+
+.title.animate::after {
+  width: 50%;
+}
+
+.missionContent {
+  background-color: #60a5fa;
+}
+.missionText {
+  margin: 50px;
+}
+.highlight {
+  color: white;
+}
+.mainHeader {
+  transform: translateX(-200%) !important;
+  transition: all 1s;
+}
+.animateHeader {
+  transform: translateX(0%) !important;
+}
+.mainImg {
+  transform: translateX(200%) !important;
+  transition: all 1s;
+}
+.animateImg {
+  transform: translateX(0%) !important;
+}
