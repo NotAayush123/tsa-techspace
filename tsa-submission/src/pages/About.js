@@ -10,7 +10,7 @@ const About = () => {
         <div className={styles.textContainer}>
           <h4 className={`${styles.info} mt-5`}>
             Helping thousands of people{" "}
-            <span style={{ color: "#a78bfa" }}>learm</span>, and managing
+            <span style={{ color: "#a78bfa" }}>learn</span>, and managing
             makerspaces can't be <span style={{ color: "#60a5fa" }}>easy</span>.
           </h4>
           <h3 style={{ fontSize: "2em" }}>So how do we do it?</h3>
