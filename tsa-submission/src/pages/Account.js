@@ -10,7 +10,7 @@ const Account = () => {
   return (
     <Container>
       <div style={{ width: "100wh", marginTop: "15px" }}>
-        <h1>{name}'s Account</h1>
+        <h1 style={{ color: "white" }}>{name}'s Account</h1>
       </div>
       <Divider size={4} />
       <div className="infoGroup mt-5">

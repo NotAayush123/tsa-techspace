@@ -54,23 +54,6 @@ h3 {
   margin-top: 100px !important;
 }
 
-.workButton {
-  background-color: #06d6a0;
-  margin-top: 100px;
-}
-
-.workButton:hover {
-  background-color: #0ac593;
-}
-
-.schoolButton {
-  background-color: #f9c74f;
-}
-
-.schoolButton:hover {
-  background-color: #f3bc3c;
-}
-
 @media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {
     display: block !important;

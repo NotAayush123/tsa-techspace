@@ -165,8 +165,8 @@ const SignupForm = () => {
             <Container>
               <h1 className={classes.title}>
                 Signup for{" "}
-                <span style={{ color: "#f97316", fontWeight: "700" }}>
-                  Alcona
+                <span style={{ color: "#a78bfa", fontWeight: "700" }}>
+                  Techspace
                 </span>
               </h1>
               <Form.Group className="mb-3" controlId="formName">
@@ -185,8 +185,8 @@ const SignupForm = () => {
                 />
                 {nameInputHasError && (
                   <p
-                    className="text-danger mt-2 mx-2"
-                    style={{ fontWeight: "500" }}
+                    className=" mt-2 mx-2"
+                    style={{ fontWeight: "500", color: "#fecaca" }}
                   >
                     Name can't be empty!
                   </p>
@@ -208,16 +208,16 @@ const SignupForm = () => {
                 />
                 {emailhasError && (
                   <p
-                    className="text-danger mt-2 mx-2"
-                    style={{ fontWeight: "500" }}
+                    className=" mt-2 mx-2"
+                    style={{ fontWeight: "500", color: "#fecaca" }}
                   >
                     Invalid email address!
                   </p>
                 )}
                 {emailUsed && (
                   <p
-                    className="text-danger mt-2 mx-2"
-                    style={{ fontWeight: "500" }}
+                    className="mt-2 mx-2"
+                    style={{ fontWeight: "500", color: "#fecaca" }}
                   >
                     Already taken!
                   </p>
@@ -250,14 +250,17 @@ const SignupForm = () => {
                 />
                 {confirmPasswordHasError && (
                   <p
-                    className="text-danger mt-2 mx-2"
-                    style={{ fontWeight: "500" }}
+                    className=" mt-2 mx-2"
+                    style={{ fontWeight: "500", color: "#fecaca" }}
                   >
                     Passwords don't match, or this is empty.
                   </p>
                 )}
               </Form.Group>
-              <div className={`mb-2 ${classes.linkContainer}`}>
+              <div
+                className={`mb-2 ${classes.linkContainer}`}
+                style={{ color: "white" }}
+              >
                 Already have an account?{" "}
                 <a href="/login" className={classes.link}>
                   Login

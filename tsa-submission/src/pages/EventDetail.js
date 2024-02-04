@@ -86,12 +86,17 @@ const EventDetail = () => {
       <div className={classes.imgContainer}>
         <img className={classes.image} src={image} alt="Volunteering" />
       </div>
-      <h1 className="mt-5">{eventName}</h1>
-      <h3>{address}</h3>
+      <h1 className="mt-5" style={{ color: "white" }}>
+        {eventName}
+      </h1>
+      <h3 style={{ color: "white" }}>{address}</h3>
       <AvatarGroup className="mb-3">
         {avatars}
         {"   "}
-        <Text fw={700} style={{ fontSize: "1.4rem", marginLeft: "5px" }}>
+        <Text
+          fw={700}
+          style={{ fontSize: "1.4rem", marginLeft: "5px", color: "#a78bfa" }}
+        >
           {volunteers.length}/{maxSpots} volunteers
         </Text>
       </AvatarGroup>{" "}
@@ -129,7 +134,7 @@ const EventDetail = () => {
           ) : (
             <Button
               className={classes.sign}
-              color="orange"
+              color="#60a5fa"
               radius="lg"
               fullWidth
               onClick={() => {

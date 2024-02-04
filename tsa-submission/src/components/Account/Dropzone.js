@@ -37,7 +37,9 @@ export function DropzoneButton(props) {
   });
   return (
     <>
-      <h3 className="mt-2">Set a profile picture</h3>
+      <h3 className="mt-2" style={{ color: "white" }}>
+        Set a profile picture
+      </h3>
       <Dropzone
         onDrop={setFiles}
         style={{

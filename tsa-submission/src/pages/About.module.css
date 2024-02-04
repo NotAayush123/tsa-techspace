@@ -36,12 +36,12 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background-color: #fdba74;
+  background-color: #a78bfa;
   transition: all 1s;
 }
 .scrollButton:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  background-color: #f97316;
+  background-color: #60a5fa;
 }
 .aboutInfo {
   height: 150vh;
@@ -49,13 +49,13 @@
   align-items: center;
   justify-content: center;
   background-color: #fdba74;
-  background-image: url("../assets/bgwithsemicircle.png");
+  background-image: url("../assets/darkBgWithCircles.png");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .card {
-  background-color: rgba(249, 116, 21);
+  background-color: #a78bfa;
   border-radius: 15px;
   color: white;
   padding: 15px;
@@ -75,8 +75,9 @@
   }
 }
 .container {
-  background-image: url("../assets/bgwithsemicircle2.png");
+  background-image: url("../assets/darkBgWithCircles.png");
   background-size: cover;
   background-attachment: fixed;
   height: 150vh;
+  color: white;
 }

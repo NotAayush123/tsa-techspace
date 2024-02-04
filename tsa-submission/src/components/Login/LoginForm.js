@@ -118,7 +118,7 @@ export default function LoginForm() {
       )}
       <Container size={1500} my={40} className={classes.container}>
         <Title ta="center" className={classes.title}>
-          Welcome back to <span style={{ color: "#0ea5e9" }}>Alcona!</span>
+          Welcome back to <span style={{ color: "#a78bfa" }}>Techspace!</span>
         </Title>
         <Text
           c="dimmed"
@@ -146,7 +146,13 @@ export default function LoginForm() {
           </a>
         </Text>
 
-        <Paper withBorder shadow="md" p={30} mt={30} radius="md">
+        <Paper
+          shadow="md"
+          p={30}
+          mt={30}
+          radius="md"
+          style={{ backgroundColor: "#64748b" }}
+        >
           <Form onSubmit={formSumbit}>
             <Form.Group className={`mb-4`} controlId="formName">
               <InputComponent
@@ -162,8 +168,8 @@ export default function LoginForm() {
 
               {emailhasError && (
                 <p
-                  className="text-danger mt-2 text-center"
-                  style={{ fontWeight: "500" }}
+                  className=" mt-2 text-center"
+                  style={{ fontWeight: "500", color: "#fecaca" }}
                 >
                   Invalid email address!
                 </p>

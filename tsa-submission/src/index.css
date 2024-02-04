@@ -86,3 +86,8 @@ html {
     z-index: 999999999 !important;
   }
 }
+.vertical-timeline--two-columns
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  color: white;
+}

@@ -37,11 +37,7 @@
 .bg {
   height: 100vh;
   background: rgb(249, 115, 22);
-  background: linear-gradient(
-    90deg,
-    rgba(249, 115, 22, 1) 0%,
-    rgba(253, 186, 116, 1) 65%
-  );
+  background: linear-gradient(90deg, #a78bfa 0%, #dc3545 65%);
   display: flex;
   align-items: center;
   justify-content: center;

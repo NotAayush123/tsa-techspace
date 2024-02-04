@@ -10,8 +10,8 @@ const About = () => {
         <div className={styles.textContainer}>
           <h4 className={`${styles.info} mt-5`}>
             Helping thousands of people{" "}
-            <span style={{ color: "#f97316" }}>volunteer</span>, and managing
-            the events can't be <span style={{ color: "#0ea5e9" }}>easy</span>.
+            <span style={{ color: "#a78bfa" }}>learm</span>, and managing
+            makerspaces can't be <span style={{ color: "#60a5fa" }}>easy</span>.
           </h4>
           <h3 style={{ fontSize: "2em" }}>So how do we do it?</h3>
           <a href="#aboutUs">
@@ -93,20 +93,6 @@ const About = () => {
               </div>
             </Col>
           </Row>
-          <div style={{ textAlign: "center" }}>
-            <h1 className="text-white mt-5">Other Info</h1>
-            <p style={{ fontSize: "1.2rem" }}>
-              This website was made by Aayush and Laksh, members of MOT K-8 BPA.
-              The theme was a "Community Service Hub", which Alcona strives to
-              be for everyone.
-            </p>
-            <ul>
-              <li>School - MOT K-8</li>
-              <li>City - Middletown</li>
-              <li> State - Delaware </li>
-              <li>Year - 2023 - 2024</li>
-            </ul>
-          </div>
         </Container>
       </div>
     </div>

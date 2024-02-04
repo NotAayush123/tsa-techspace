@@ -52,7 +52,7 @@ function NavbarLink({
         data-active={active || undefined}
       >
         {profile ? (
-          <Avatar src={user ? user.img : ""} />
+          <Avatar src={user ? user.img : ""} color="white" />
         ) : (
           <Icon style={{ width: rem(20), height: rem(20) }} stroke={1.5} />
         )}

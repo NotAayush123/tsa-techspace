@@ -36,10 +36,12 @@ const Dashboard = () => {
   if (signedIn) {
     return (
       <div style={{ marginLeft: "2rem" }}>
-        <h1 className="mt-3">Welcome back, {user.name}</h1>
-        <h3>It's {date}</h3>
+        <h1 className="mt-3" style={{ color: "white" }}>
+          Welcome back, {user.name}
+        </h1>
+        <h3 style={{ color: "white" }}>It's {date}</h3>
         <div className="mt-5">
-          <h4 className="mt-3" style={{ color: "#f97316" }}>
+          <h4 className="mt-3" style={{ color: "#a78bfa" }}>
             Events for you
           </h4>
           <CardsCarousel
@@ -49,7 +51,7 @@ const Dashboard = () => {
             profile={user.img}
           />
           {!empty && (
-            <h4 className="mt-3" style={{ color: "#f97316" }}>
+            <h4 className="mt-3" style={{ color: "#a78bfa" }}>
               Signed Up Events
             </h4>
           )}

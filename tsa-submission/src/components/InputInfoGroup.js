@@ -72,7 +72,9 @@ export default function InputInfoGroup({ label }) {
           }}
         />
       )}
-      <h3 className="mt-1">{label ? `Your ${label}` : "Field"}</h3>
+      <h3 className="mt-1" style={{ color: "white" }}>
+        {label ? `Your ${label}` : "Field"}
+      </h3>
       <Input
         placeholder={`Your ${label}`}
         value={value}

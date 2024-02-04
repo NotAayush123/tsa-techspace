@@ -58,7 +58,7 @@ export function VolunteeringCard(item) {
           <Button
             radius="xl"
             style={{ flex: 1 }}
-            color="orange"
+            color="#60a5fa"
             onClick={() => {
               let queryParams = `name=${encodeURIComponent(
                 item.name || item.eventName

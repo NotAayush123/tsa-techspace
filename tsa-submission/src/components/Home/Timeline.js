@@ -40,50 +40,48 @@ function TimeEvent() {
       title: "First Founded",
       location: "Middletown, Delaware",
       description:
-        "In August 2016, ServeLink was established with the goal of creating a positive impact on the world. We started our journey by converting data to a graphical interface, using React, Mantine, and so many other frameworks, to enable users to view and interact with data effectively!",
-
-      date: "August 2016 - present",
+        "In January 2024, Techspace was established with the goal of creating a positive impact on the world. We started our journey by connecting curious minds to opportunites, using React, Mantine, and so many other frameworks!",
+      date: "January 2024 - present",
       icon: "info",
     },
     {
       id: 2,
-      title: "2,000 Volunteers Signed Up",
+      title: "3,000 Members Signed Up",
       location: "Delaware, New Jersey, and Maryland",
       description:
-        "We got 2,000 volunteers to sign up and support causes they care about!",
+        "We got 2,000 volunteers to learn and have fun at makerspaces!",
 
-      date: "August 2016 - 2019",
+      date: "August 2016 - present",
       icon: "person",
     },
     {
       id: 3,
-      title: "Biggest Giveaway Ever",
-      location: "Glasgow Park",
+      title: "Biggest Makerspace Ever",
+      location: "Appoquinimink Library",
       description:
-        "Our biggest giveaway, where we gave away almost 20,000 items in 6 hours to almost 2,000 people.",
+        "Our biggest makerspace, where almost 1,000 people came to have learn and have fun!",
 
       date: "March 29, 2021",
       icon: "hand",
     },
     {
       id: 4,
-      title: "Planting 7,000 Trees",
-      location: "Glasgow Park",
+      title: "20,000 hours reached!",
+      location: "Techspace",
       description:
-        "Our initiative to plant 7,000 trees in Glasgow Park to support environmental conservation succeeded!",
+        "Almost 20,000 hours have been spent on our platform, learning and having fun!",
 
       date: "May 25, 2022 - June 4, 2022",
-      icon: "tree",
+      icon: "clock",
     },
     {
       id: 5,
-      title: "Cleaning Up Pollution",
+      title: "15 Different Categories",
       location: "Delaware and Nearby Areas",
-      description:
-        "We cleaned up 5,000 pieces of pollution, with the help of almost 500 people!",
+      description: "We started having 15 different categories of events!",
 
       date: "July 25, 2022 - August 9, 2022",
-      icon: "trash",
+      icon: "category",
     },
     {
       id: 6,
@@ -110,16 +108,16 @@ function TimeEvent() {
           };
 
           switch (element.icon) {
-            case "trash":
-              iconClass = "fa-solid fa-trash";
-              iconStyle.backgroundColor = "#34d399";
+            case "category":
+              iconClass = "fa-solid fa-layer-group";
+              iconStyle.backgroundColor = "#60a5fa";
               break;
             case "hand":
               iconClass = "fa-solid fa-hand-holding-heart";
               iconStyle.backgroundColor = "#fdba74";
               break;
-            case "tree":
-              iconClass = "fa-solid fa-tree";
+            case "clock":
+              iconClass = "fa-solid fa-clock";
               iconStyle.backgroundColor = "#bef264";
               break;
             case "person":

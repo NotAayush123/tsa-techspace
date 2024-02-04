@@ -41,14 +41,12 @@ const Mission = () => {
                   animate ? classes.animateHeader : ""
                 } ${classes.mainHeader}`}
               >
-                At <span className={classes.highlight}>Alcona</span>, we empower
-                communities through{" "}
-                <span className={classes.highlight}>accessible</span> service
-                opportunities,{" "}
-                <span className={classes.highlight}>inspiring</span> a culture
-                of giving and making a{" "}
-                <span className={classes.highlight}>positive</span> impact an
-                integral part of daily life.
+                At <span className={classes.highlight}>Techspace</span>, we help
+                people learn <span className={classes.highlight}>vital</span>{" "}
+                technology related skills, make long-lasting{" "}
+                <span className={classes.highlight}>friends</span> to learn
+                with, and do it all for{" "}
+                <span className={classes.highlight}>free</span>.{" "}
               </h1>
             </div>
           </Col>

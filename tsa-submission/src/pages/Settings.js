@@ -11,12 +11,14 @@ const Settings = () => {
 
   return (
     <Container className="mb-5">
-      <h1 className="mb-5">Account Settings</h1>
+      <h1 className="mb-5" style={{ color: "white" }}>
+        Account Settings
+      </h1>
       <div>
         <InputInfoGroup label="Name" />
         <InputInfoGroup label="Email" />
         <DropzoneButton />
-        <h3 className="mt-3">
+        <h3 className="mt-3" style={{ color: "white" }}>
           {description ? "Your Description" : "Create a description"}
         </h3>
         {description && !profile ? (

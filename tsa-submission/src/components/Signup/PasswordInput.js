@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Progress, Group, Text, Center } from "@mantine/core";
+import { Box, Progress, Group, Text, Center, Paper } from "@mantine/core";
 import { useInputState } from "@mantine/hooks";
 import { IconCheck, IconX } from "@tabler/icons-react";
 import classes from "./PasswordInput.module.css";
@@ -18,12 +18,12 @@ function PasswordRequirement({ meets, label }) {
     </Text>
   );
 }
-
 const requirements = [
   { re: /[0-9]/, label: "Includes number" },
   { re: /[a-z]/, label: "Includes lowercase letter" },
   { re: /[A-Z]/, label: "Includes uppercase letter" },
   { re: /[$&+,:;=?@#|'<>.^*()%!-]/, label: "Includes special symbol" },
+  { re: /^.{6,}$/, label: "Has at least 6 characters" },
 ];
 
 function getStrength(password) {
@@ -91,15 +91,16 @@ export function PasswordStrength(props) {
         {bars}
       </Group>
       {props.isValid && (
-        <p className="text-danger mt-2 mx-2" style={{ fontWeight: "500" }}>
+        <p
+          className="mt-2 mx-2"
+          style={{ fontWeight: "500", color: "#fecaca" }}
+        >
           Invalid password!
         </p>
       )}
-      <PasswordRequirement
-        label="Has at least 6 characters"
-        meets={value.length > 5}
-      />
-      {checks}
+      <Paper withBorder className={classes.paperContainer}>
+        {checks}
+      </Paper>
     </div>
   );
 }

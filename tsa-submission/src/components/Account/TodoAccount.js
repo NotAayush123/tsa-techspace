@@ -22,7 +22,9 @@ const TodoAccount = () => {
   return (
     <div>
       {data && data.length !== 0 && (
-        <h2 className="mb-3">Finish Setting Up Your Account</h2>
+        <h2 className="mb-3" style={{ color: "white" }}>
+          Finish Setting Up Your Account
+        </h2>
       )}
       {data.map((item) => {
         return (
