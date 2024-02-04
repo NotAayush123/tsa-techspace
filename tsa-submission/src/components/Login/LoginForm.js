@@ -64,6 +64,8 @@ export default function LoginForm() {
     }
     if (foundUser) {
       const foundUserPassword = foundUser.password;
+      console.log(foundUserPassword);
+      console.log(data.password);
       bcryptjs.compare(data.password, foundUserPassword, (err, result) => {
         if (err) {
           console.error("Error comparing passwords:", err);

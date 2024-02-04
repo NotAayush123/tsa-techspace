@@ -20,10 +20,10 @@ export function VolunteeringCard({ last }) {
       </ThemeIcon>
 
       <Text ta="center" fw={700} className={classes.title}>
-        <h3>{last ? "Your Last Volunteering" : "Your Volunteer Hours"}</h3>
+        <h3>{last ? "Your Last Makerspace" : "Time Spent"}</h3>
       </Text>
       <Text ta="center" fz="sm">
-        {last ? "was with Charity Crossing!" : "0 hours"}
+        {last ? "was related to AI!" : "0 hours"}
       </Text>
     </Paper>
   );
