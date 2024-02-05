@@ -56,7 +56,7 @@ const Mission = () => {
               style={{
                 clipPath: "polygon(25% 0%, 100% 0%, 100% 99%, 0% 100%)",
               }}
-              src="https://iseusa.org/wp-content/uploads/2017/04/shutterstock_428931997-e1543504561281-thegem-blog-default.jpg"
+              src="https://media.istockphoto.com/id/508455716/photo/data-center-with-rows-of-network-servers-dark-with-lights.jpg?s=612x612&w=0&k=20&c=KiNwT-RYL8xh_nNrlEAOSrdx5OSZj1wEgxOcjyePx3k="
               className={`d-block mx-lg-auto img-fluid ${classes.mainImg} ${
                 animate ? classes.animateImg : ""
               }`}

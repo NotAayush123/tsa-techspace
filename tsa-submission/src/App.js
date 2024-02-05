@@ -1,7 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainNavbar from "./components/MainNavbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import alanBtn from "@alan-ai/alan-sdk-web";
 import Home from "./pages/Home";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
@@ -16,7 +15,6 @@ import Settings from "./pages/Settings";
 import Events from "./components/Events";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import EventDetail from "./pages/EventDetail";
-import { useEffect } from "react";
 
 const router = createBrowserRouter([
   {
@@ -66,17 +64,6 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  useEffect(() => {
-    alanBtn({
-      key: process.env.REACT_APP_ALAN_KEY,
-      onCommand: (commandData) => {
-        if (commandData.command === "signup") {
-          console.log("Hi!");
-        }
-      },
-    });
-  }, []);
-  console.log(process.env.A);
   return (
     <>
       <MantineProvider inherit theme={{ colorScheme: "light" }}>

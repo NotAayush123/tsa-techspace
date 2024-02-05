@@ -41,11 +41,11 @@ const About = () => {
                 />
                 <h1 className="text-center">Trust</h1>
                 <p className="text-center">
-                  Trust is at the core of Alcona. We provide various
-                  volunteering opportunities, and your trust is our top
-                  priority. We never share your information, and our sole goal
-                  is to enable meaningful acts of kindness. Your trust fuels the
-                  positive change we aim to achieve.
+                  Trust is at the core of Techspace. We provide various
+                  makerspace opportunities, and your trust is our top priority.
+                  We never share your information, and our sole goal is to help
+                  people learn and have fun. Your trust fuels the positive
+                  change we aim to achieve.
                 </p>
               </div>
             </Col>
@@ -61,8 +61,8 @@ const About = () => {
                 <img src={Reliability} alt="" className="img-fluid" />
                 <h1 className="text-center">Reliability</h1>
                 <p className="text-center">
-                  Reliability is key at Alcona. We're built on trust and
-                  dependability, offering consistent volunteering opportunities.
+                  Reliability is key at Techspace. We're built on trust and
+                  dependability, offering consistent makerspace opportunities.
                   You can rely on us to connect you with meaningful projects.
                   Your trust drives our reliability and integrity.
                 </p>
@@ -85,10 +85,11 @@ const About = () => {
                 />
                 <h1 className="text-center">No cost</h1>
                 <p className="text-center">
-                  At Alcona, we're committed to making a difference without any
-                  cost to you. We believe in accessible altruism, providing free
-                  volunteering opportunities that you can trust. Our mission is
-                  to ensure that giving back knows no financial boundaries.
+                  At Techspace, we're committed to making a difference without
+                  any cost to you. We believe in accessible altruism, providing
+                  free technology-related makerspaces that you can trust. Our
+                  mission is to ensure that helping people learn knows no
+                  financial boundaries.
                 </p>
               </div>
             </Col>

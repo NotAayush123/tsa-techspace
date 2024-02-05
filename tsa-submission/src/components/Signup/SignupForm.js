@@ -285,7 +285,7 @@ const SignupForm = () => {
         </Col>
         <Col xs={0} md={4} className="ml-auto d-none d-md-block">
           <img
-            src="https://st3.depositphotos.com/5479794/15306/i/450/depositphotos_153064450-stock-photo-delivering-groceries-to-the-elderly.jpg"
+            src="https://t3.ftcdn.net/jpg/05/06/75/92/360_F_506759292_NCUeeDNHy00k7PK6CZketVZQXIDUvxUN.jpg"
             alt=""
             className={classes.image}
             style={{

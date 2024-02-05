@@ -41,7 +41,7 @@ export function Footer() {
             variant="default"
             radius="xl"
             onClick={() => {
-              window.location.href = "https://twitter.com/AlconaBPA";
+              window.location.href = "https://twitter.com/Techspace___";
             }}
           >
             <IconBrandTwitter
@@ -67,7 +67,7 @@ export function Footer() {
             variant="default"
             radius="xl"
             onClick={() => {
-              window.location.href = "https://www.instagram.com/alconabpa123";
+              window.location.href = " https://www.instagram.com/techspace___/";
             }}
           >
             <IconBrandInstagram

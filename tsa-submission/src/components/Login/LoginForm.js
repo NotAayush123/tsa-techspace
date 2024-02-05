@@ -71,25 +71,29 @@ export default function LoginForm() {
           console.error("Error comparing passwords:", err);
           setUserExists(true);
         }
-
-        if (result) {
-          localStorage.setItem("signedIn", true);
-          localStorage.setItem(
-            "currentUser",
-            JSON.stringify({
-              name: foundUser.name,
-              email: foundUser.email,
-              id: foundUser.id,
-              img: foundUser.img,
-              description: foundUser.description,
-              signedEvents: foundUser.signedEvents,
-              date: new Date(),
-            })
-          );
-          navigate("/dashboard");
-        } else {
-          console.log("Login failed");
-          setUserExists(true);
+        try {
+          console.log(result);
+          if (result) {
+            localStorage.setItem("signedIn", true);
+            localStorage.setItem(
+              "currentUser",
+              JSON.stringify({
+                name: foundUser.name,
+                email: foundUser.email,
+                id: foundUser.id,
+                img: foundUser.img,
+                description: foundUser.description,
+                signedEvents: foundUser.signedEvents,
+                date: new Date(),
+              })
+            );
+            navigate("/dashboard");
+          } else {
+            console.log("Login failed");
+            setUserExists(true);
+          }
+        } catch (e) {
+          console.log(e);
         }
       });
     }
