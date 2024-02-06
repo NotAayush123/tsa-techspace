@@ -15,6 +15,7 @@ import Settings from "./pages/Settings";
 import Events from "./components/Events";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import EventDetail from "./pages/EventDetail";
+import OtherInfo from "./pages/OtherInfo";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/otherInfo",
+        element: <OtherInfo />,
       },
       {
         path: "/privacy",
@@ -62,7 +67,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
-
+console.log(process.env);
 function App() {
   return (
     <>

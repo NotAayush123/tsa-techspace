@@ -10,6 +10,7 @@ import classes from "./Footer.module.css";
 const links = [
   { link: "/privacy", label: "Privacy" },
   { link: "/about", label: "About Us" },
+  { link: "/otherInfo", label: "Other Info" },
 ];
 
 export function Footer() {
@@ -54,7 +55,7 @@ export function Footer() {
             variant="default"
             radius="xl"
             onClick={() => {
-              window.location.href = "https://youtube.com/@alconabpa";
+              window.location.href = "https://www.youtube.com/@TSAtechspace";
             }}
           >
             <IconBrandYoutube

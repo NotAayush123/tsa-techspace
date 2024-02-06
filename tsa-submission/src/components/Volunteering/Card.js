@@ -62,8 +62,8 @@ export function VolunteeringCard(item) {
             onClick={() => {
               let queryParams = `name=${encodeURIComponent(
                 item.name || item.eventName
-              )}&organization=${encodeURIComponent(
-                item.organization
+              )}&category=${encodeURIComponent(
+                item.category
               )}&image=${encodeURIComponent(
                 item.image
               )}&maxSpots=${encodeURIComponent(
