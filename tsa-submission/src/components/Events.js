@@ -4,7 +4,7 @@ import Search from "./Events/Search";
 
 const Events = () => {
   const [value, setValue] = useState();
-  const [charities, setCharities] = useState();
+
   const [days, setDays] = useState();
   return (
     <div style={{ marginLeft: "20px" }}>
@@ -12,12 +12,11 @@ const Events = () => {
         onEnter={(value) => {
           setValue(value);
         }}
-        onFilter={(charities, days) => {
-          setCharities(charities);
+        onFilter={(days) => {
           setDays(days);
         }}
       />
-      <EventsList value={value} charities={charities} days={days} />
+      <EventsList value={value} days={days} />
     </div>
   );
 };

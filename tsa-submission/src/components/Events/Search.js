@@ -12,35 +12,23 @@ import classes from "./Search.module.css";
 import { CheckIcon } from "@mantine/core";
 
 const Search = ({ onEnter, onFilter }) => {
-  const [charityCrossing, setCharityCrossing] = useState(true);
-  const [foodBank, setFoodBank] = useState(true);
-  const [redCross, setRedCross] = useState(true);
-
-  // State variables for days
-  const [thursday, setThursday] = useState(true);
   const [friday, setFriday] = useState(true);
   const [saturday, setSaturday] = useState(true);
   const [sunday, setSunday] = useState(true);
 
-  let data = [
-    "Volunteer At DOJ Community Giveaway",
-    "Volunteer at Phoenixville - PACS, Community Giveaway",
-    "Volunteer At LJBC Community Giveaway",
-    "Volunteer at Interfaith Community Housing Giveaway",
-    "Volunteer at Volunteer Delaware Community Giveaway",
-    "Volunteer at Glasgow Park Community Giveaway",
-    "Volunteer at Smyrna Community Giveaway",
-    "Volunteer at Trinity AME Church Community Giveaway",
-    "Volunteer at Herlithy, Wilmington Community Giveaway",
-    "Volunteer at PCI Front St, Community Giveaway",
-    "NEWARK Afternoon Greenhouse/Farm Event",
-    "NEWARK Healthy Pantry (Evening)",
-    "Wilmington Blood Transportation",
-    "Wilmington Blood Drive",
-    "NEWARK Volunteer Room (Morning)",
-    "WILMINGTON Mobile Pantry at Kingswood CC",
-    "MILFORD Healthy Pantry (Morning)",
-    "MILFORD Volunteer Room (Morning)",
+  const eventNames = [
+    "3D Printing at the Library",
+    "Intro to Data Science UD",
+    "Intro to Game Development UD",
+    "Algebraic Math at the Library",
+    "Understanding Electrical Circuits",
+    "Engineering Classes",
+    "Coding with AI Networks",
+    "Website Development at the Library",
+    "Video Game Development",
+    "Tool Workshop",
+    "Robotics Workshop",
+    "Engineering at the laboratory",
   ];
 
   return (
@@ -54,7 +42,7 @@ const Search = ({ onEnter, onFilter }) => {
             stroke={1.5}
           />
         }
-        data={data}
+        data={eventNames}
         visibleFrom="xs"
         onChange={(value) => {
           onEnter(value);
@@ -68,61 +56,14 @@ const Search = ({ onEnter, onFilter }) => {
         </Popover.Target>
         <Popover.Dropdown>
           <Text size="lg" className="mb-2">
-            Filter Organizations
-          </Text>
-          <Checkbox
-            label="Charity Crossing"
-            icon={CheckIcon}
-            style={{ marginBottom: "5px" }}
-            color="orange"
-            value={charityCrossing}
-            onClick={() => {
-              setCharityCrossing((prev) => !prev);
-            }}
-            checked={charityCrossing}
-          />
-          <Checkbox
-            label="Food Bank of Delaware"
-            icon={CheckIcon}
-            style={{ marginBottom: "5px" }}
-            color="orange"
-            value={foodBank}
-            onClick={() => {
-              setFoodBank((prev) => !prev);
-            }}
-            checked={foodBank}
-          />
-          <Checkbox
-            label="Red Cross"
-            icon={CheckIcon}
-            style={{ marginBottom: "5px" }}
-            color="orange"
-            value={redCross}
-            onClick={() => {
-              setRedCross((prev) => !prev);
-            }}
-            checked={redCross}
-          />
-          <Text size="lg" className="mb-2">
             Filter Days
           </Text>
-          <Checkbox
-            checked={thursday}
-            label="Thursday"
-            icon={CheckIcon}
-            style={{ marginBottom: "5px" }}
-            color="orange"
-            value={thursday}
-            onClick={() => {
-              setThursday((prev) => !prev);
-            }}
-          />
           <Checkbox
             checked={friday}
             label="Friday"
             icon={CheckIcon}
             style={{ marginBottom: "5px" }}
-            color="orange"
+            color="cyan"
             value={friday}
             onClick={() => {
               setFriday((prev) => !prev);
@@ -133,7 +74,7 @@ const Search = ({ onEnter, onFilter }) => {
             label="Saturday"
             icon={CheckIcon}
             style={{ marginBottom: "5px" }}
-            color="orange"
+            color="cyan"
             value={saturday}
             onClick={() => {
               setSaturday((prev) => !prev);
@@ -144,7 +85,7 @@ const Search = ({ onEnter, onFilter }) => {
             label="Sunday"
             icon={CheckIcon}
             style={{ marginBottom: "5px" }}
-            color="orange"
+            color="cyan"
             value={sunday}
             onClick={() => {
               setSunday((prev) => !prev);
@@ -154,21 +95,15 @@ const Search = ({ onEnter, onFilter }) => {
           <Button
             fullWidth
             onClick={() => {
-              const charities = {
-                charityCrossing,
-                foodBank,
-                redCross,
-              };
-
               const days = {
-                thursday,
                 friday,
                 saturday,
                 sunday,
               };
 
-              onFilter(charities, days);
+              onFilter(days);
             }}
+            color="pink"
           >
             Save
           </Button>

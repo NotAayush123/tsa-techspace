@@ -80,7 +80,7 @@ const EventDetail = () => {
   const mockdata = [
     { title: "3D Printing", icon: IconPrinter, color: "violet" },
     { title: "Electrical Circuits", icon: IconCircuitBattery, color: "indigo" },
-    { title: "Engineering ", icon: IconHammer, color: "blue" },
+    { title: "Engineering", icon: IconHammer, color: "blue" },
     { title: "AI Networks", icon: IconAccessPoint, color: "green" },
     { title: "Website Development", icon: IconNews, color: "teal" },
     { title: "Game Development", icon: IconDeviceGamepad2, color: "cyan" },
