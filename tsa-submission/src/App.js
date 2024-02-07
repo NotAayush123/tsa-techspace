@@ -68,6 +68,7 @@ const router = createBrowserRouter([
   },
 ]);
 console.log(process.env);
+console.log(process.env.REACT_APP_ALAN_KEY);
 function App() {
   return (
     <>
