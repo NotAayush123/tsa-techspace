@@ -9,6 +9,7 @@ import {
 } from "react-bootstrap";
 import classes from "./MainNavbar.module.css";
 import { Outlet, useNavigate } from "react-router-dom";
+import alanBtn from "@alan-ai/alan-sdk-web";
 import logo from "../assets/Techspace.png";
 import { useLocation } from "react-router-dom";
 import { IconHome2, IconLogout } from "@tabler/icons-react";
@@ -38,7 +39,16 @@ function MainNavbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  useEffect(() => {
+    alanBtn({
+      key: process.env.REACT_APP_ALAN_KEY,
+      onCommand: (commandData) => {
+        if (commandData.command === "signup") {
+          console.log("Hi!");
+        }
+      },
+    });
+  }, []);
   const navbarClasses = `${classes.mainNavbar} ${
     scrolled ? classes.scrolledNavbar : ""
   }`;
