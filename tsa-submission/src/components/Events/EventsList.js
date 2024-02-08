@@ -170,10 +170,72 @@ export function EventsList({ value, days }) {
         },
       ],
     },
+    {
+      name: "Environmental Science at the Laboratory",
+      category: "Environmental Science",
+      image:
+        "https://t4.ftcdn.net/jpg/05/65/15/13/360_F_565151396_zPQbPwEMJ4L5sM5zcqLaj299jW3sNcrV.jpg",
+      maxSpots: 6,
+      address: "243 Walley Street",
+      time: "4:00 p.m - 6:00 p.m",
+      day: nextFridayFormatted,
+      usersTask:
+        "Come do environmental Science with others, share studies, and have fun! Make sure you have a ride back, and you can bring a snack if you want!",
+      contactPhone: "302 446-4189",
+      contactEmail: "cisco.kareem@gmail.com",
+      volunteers: [
+        {
+          name: "Andrew Ford",
+          profilePicture:
+            "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc29ufGVufDB8fDB8fHww",
+        },
+        {
+          name: "Ashley Walls",
+          profilePicture:
+            "https://images.unsplash.com/photo-1491349174775-aaafddd81942?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
+          name: " Manu Dell",
+
+          profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+        },
+      ],
+    },
+    {
+      name: "Experiment with renewable energy",
+      category: "Renewable Energy",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNlDTQcD3_qDpY2c9rbIZvElNgUeDAiB1gw&usqp=CAU",
+      maxSpots: 5,
+      address: "145 Bill Avenue",
+      time: "2:00 p.m - 4:00 p.m",
+      day: nextFridayFormatted,
+      usersTask:
+        "Come find renewable energy sources  with others, share results, and have fun! Make sure you have a ride back, and you can some food if you want!",
+      contactPhone: "302 996-5467",
+      contactEmail: "ryan.kai@gmail.com",
+      volunteers: [
+        {
+          name: "Ashley Walls",
+          profilePicture:
+            "https://images.unsplash.com/photo-1491349174775-aaafddd81942?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
+          name: "Mckinley Christoper",
+          profilePicture:
+            "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+        },
+        {
+          name: "Azra Ofori",
+          profilePicture:
+            "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+        },
+      ],
+    },
   ];
   let data2 = [
     {
-      name: "Engineering at the laboratory",
+      name: "Engineering at UD",
       category: "Engineering",
       image: "https://wallpapercave.com/wp/wp8000417.jpg",
       maxSpots: 6,
@@ -202,13 +264,14 @@ export function EventsList({ value, days }) {
         {
           name: "Andrew Ford",
 
-          profilePicture: "https://stocksnap.io/photo/video-meeting-ZDSQP4E3UL",
+          profilePicture:
+            "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc29ufGVufDB8fDB8fHww",
         },
 
         {
-          name: "Mathew Max",
+          name: " Manu Dell",
 
-          profilePicture: "https://stocksnap.io/photo/video-meeting-ZDSQP4E3UL",
+          profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
         },
       ],
     },
@@ -308,6 +371,59 @@ export function EventsList({ value, days }) {
         {
           name: "Jennie Perry",
 
+          profilePicture:
+            "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MB8fHJhbmRvbSUyMHBIb3BsZXx|bnwwfHwwfH×8MA%3D%3D",
+        },
+      ],
+    },
+    {
+      name: "Aerospace-related activites",
+      category: "Aerospace",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07BvWEL8vJChLmOA6SMpJFvi6qYhZF1BQSQ&usqp=CAU",
+      maxSpots: 5,
+      address: "679 Xavier Road",
+      time: "1:00 p.m - 3:00 p.m",
+      day: nextFridayFormatted,
+      usersTask:
+        "Come research designs with others, try out new models,and have a good time! Make sure you have a ride back, and you can bring some drinks if you want!",
+      contactPhone: "302 461-9861",
+      contactEmail: "charlie.patel@gmail.com",
+      volunteers: [
+        {
+          name: "Andrew Ford",
+          profilePicture:
+            "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc29ufGVufDB8fDB8fHww",
+        },
+        {
+          name: "Azra Ofori",
+          profilePicture:
+            "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+        },
+      ],
+    },
+    {
+      name: "Environment-related activities",
+      category: "Environmental Science",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDj-2wqQOM71WKgMIjpvmTmUZjIda5JWSZQ&usqp=CAU",
+      maxSpots: 5,
+      address: "817 Bobby Avenue",
+      time: "12:00 p.m - 2:00 p.m",
+      day: nextSaturdayFormatted,
+      usersTask:
+        "Come research different environments, and do other environment-related , and make sure to have a good time! Make sure you have a ride back, and you can bring some food if you think you will be hungry!",
+      contactPhone: "302 164-6891",
+      contactEmail: "Taylor.harmon@gmail.com",
+      volunteers: [
+        {
+          name: " Bruce Rogers",
+
+          profilePicture:
+            "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJhbmRvbSUyMHBIb3BsZXxlbnwwfHwwfH×8MA%3D%3D",
+        },
+        {
+          name: "Jennie Perry",
           profilePicture:
             "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MB8fHJhbmRvbSUyMHBIb3BsZXx|bnwwfHwwfH×8MA%3D%3D",
         },
@@ -413,6 +529,67 @@ export function EventsList({ value, days }) {
         {
           name: "Chris Bell",
           profilePicture: "https://randomuser.me/api/portraits/men/70.jpg11",
+        },
+      ],
+    },
+    {
+      name: "Learn about AR and VR and Experience them",
+      category: "Virtual Reality (VR) and Augmented Reality (AR)",
+      image:
+        "https://t4.ftcdn.net/jpg/03/21/87/17/360_F_321871791_I6DdiEL6qXp5iOxCaDHhuMcAS7oT2vHB.jpg",
+      maxSpots: 5,
+      address: "613 Obama Avenue",
+      time: "7:00 p.m - 9:00 p.m",
+      day: nextSundayFormatted,
+      usersTask:
+        "Experience different realities, discuss them with others , and have a good time! Make sure you have a ride back, and you can bring some food if necessary!",
+      contactPhone: "302 128-9476",
+      contactEmail: "oslma.hewes@gmail.com",
+      volunteers: [
+        {
+          name: " Ted Khan",
+          profilePicture:
+            "front-view-man-working-as-real-estate-agent_23-2151064809.jpg",
+        },
+        {
+          name: "Morgan Yadala",
+          profilePicture:
+            "mixed-raceyoung-beautiful-business-woman-portrait-ai-generated-image_268835-6443.jpg",
+        },
+        {
+          name: "Rishabh Patel ",
+          profilePicture:
+            "240_F_636932621_N3R7MLb3thO8HwaS5TLh7dzCRkXufPqC.jpg",
+        },
+      ],
+    },
+    {
+      name: "Learn how to keep your information safe",
+      category: "Cybersecurity",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYLP8t5DCpmU9Xutgn89S3ZSmsPIbdEZ-6Q&usqp=CAU",
+      maxSpots: 5,
+      address: "921 Miller Road",
+      time: "2:00 p.m - 4:00 p.m",
+      day: nextSaturdayFormatted,
+      usersTask:
+        "Learn different ways to keep your private information safe, discuss them with others , and have a good time! Make sure you have a ride back, and you can bring some food if needed!",
+      contactPhone: "302 668-7392",
+      contactEmail: " Jade.Cabbatigan@gmail.com",
+      volunteers: [
+        {
+          name: "John  Cain",
+          profilePicture:
+            "entrepreneur-portrait-ai-generated-image_268835-5685.jpg",
+        },
+        {
+          name: "Jordan Cotton ",
+          profilePicture: "medium-shot-woman-posing-outdoors_23-2150725947.jpg",
+        },
+        {
+          name: "Angela Adams",
+          profilePicture:
+            "medium-shot-woman-working-as-lawyer_23-2151202448.jpg",
         },
       ],
     },

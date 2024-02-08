@@ -369,7 +369,7 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
       ],
     },
     {
-      name: "Engineering at the laboratory",
+      name: "Engineering at UD",
       category: "Engineering",
       image: "https://wallpapercave.com/wp/wp8000417.jpg",
       maxSpots: 6,
@@ -416,7 +416,8 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
         "https://t4.ftcdn.net/jpg/05/65/15/13/360_F_565151396_zPQbPwEMJ4L5sM5zcqLaj299jW3sNcrV.jpg",
       maxSpots: 6,
       address: "243 Walley Street",
-      time: "Fri, 4:00 p.m - 6:00 p.m",
+      time: "4:00 p.m - 6:00 p.m",
+      day: nextFridayFormatted,
       usersTask:
         "Come do environmental Science with others, share studies, and have fun! Make sure you have a ride back, and you can bring a snack if you want!",
       contactPhone: "302 446-4189",
@@ -446,7 +447,8 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNlDTQcD3_qDpY2c9rbIZvElNgUeDAiB1gw&usqp=CAU",
       maxSpots: 5,
       address: "145 Bill Avenue",
-      time: "Fri, 2:00 p.m - 4:00 p.m",
+      time: "2:00 p.m - 4:00 p.m",
+      day: nextFridayFormatted,
       usersTask:
         "Come find renewable energy sources  with others, share results, and have fun! Make sure you have a ride back, and you can some food if you want!",
       contactPhone: "302 996-5467",
@@ -476,7 +478,8 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07BvWEL8vJChLmOA6SMpJFvi6qYhZF1BQSQ&usqp=CAU",
       maxSpots: 5,
       address: "679 Xavier Road",
-      time: "Fri, 1:00 p.m - 3:00 p.m",
+      time: "1:00 p.m - 3:00 p.m",
+      day: nextFridayFormatted,
       usersTask:
         "Come research designs with others, try out new models,and have a good time! Make sure you have a ride back, and you can bring some drinks if you want!",
       contactPhone: "302 461-9861",
@@ -501,7 +504,8 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDj-2wqQOM71WKgMIjpvmTmUZjIda5JWSZQ&usqp=CAU",
       maxSpots: 5,
       address: "817 Bobby Avenue",
-      time: "Fri, 12:00 p.m - 2:00 p.m",
+      time: "12:00 p.m - 2:00 p.m",
+      day: nextSaturdayFormatted,
       usersTask:
         "Come research different environments, and do other environment-related , and make sure to have a good time! Make sure you have a ride back, and you can bring some food if you think you will be hungry!",
       contactPhone: "302 164-6891",
@@ -528,11 +532,12 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
         "https://t4.ftcdn.net/jpg/03/21/87/17/360_F_321871791_I6DdiEL6qXp5iOxCaDHhuMcAS7oT2vHB.jpg",
       maxSpots: 5,
       address: "613 Obama Avenue",
-      time: "Fri, 7:00 p.m - 9:00 p.m",
+      time: "7:00 p.m - 9:00 p.m",
+      day: nextSundayFormatted,
       usersTask:
         "Experience different realities, discuss them with others , and have a good time! Make sure you have a ride back, and you can bring some food if necessary!",
       contactPhone: "302 128-9476",
-      contactEmail: " oslma.hewes@gmail.com",
+      contactEmail: "oslma.hewes@gmail.com",
       volunteers: [
         {
           name: " Ted Khan",
@@ -558,7 +563,8 @@ export function CardsCarousel({ date, pastEvents, username, profile }) {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYLP8t5DCpmU9Xutgn89S3ZSmsPIbdEZ-6Q&usqp=CAU",
       maxSpots: 5,
       address: "921 Miller Road",
-      time: "Fri, 2:00 p.m - 4:00 p.m",
+      time: "2:00 p.m - 4:00 p.m",
+      day: nextSaturdayFormatted,
       usersTask:
         "Learn different ways to keep your private information safe, discuss them with others , and have a good time! Make sure you have a ride back, and you can bring some food if needed!",
       contactPhone: "302 668-7392",

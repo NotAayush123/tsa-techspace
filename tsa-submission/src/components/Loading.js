@@ -10,7 +10,7 @@ const Loading = () => {
         justifyContent: "center",
       }}
     >
-      <Loader color="orange" size="xl" type="dots" />
+      <Loader color="pink" size="xl" type="dots" />
     </div>
   );
 };
