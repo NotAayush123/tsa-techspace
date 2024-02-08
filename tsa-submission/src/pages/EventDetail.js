@@ -91,12 +91,12 @@ const EventDetail = () => {
     { title: "Data Science", icon: IconDatabase, color: "lime" },
     { title: "Environmental Science", icon: IconMicroscope, color: "red" },
     {
-      title: " Virtual Reality (VR) and Augmented Reality (AR)",
+      title: "Virtual Reality (VR) and Augmented Reality (AR)",
       icon: Icon360,
       color: "orange",
     },
     {
-      title: "Cybersecurity ",
+      title: "Cybersecurity",
       icon: IconLock,
       color: "gray",
     },
